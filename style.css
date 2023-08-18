@@ -5,6 +5,7 @@ html{
 
 body {
     background-image: url(https://arc-anglerfish-arc2-prod-infobae.s3.amazonaws.com/public/EWRWZLV7FZEM7C24TIEPFBJCP4.jpg);
+    background-repeat: no-repeat;
     background-size:cover; 
     
 }
