@@ -1,0 +1,76 @@
+html{
+    font-family: 'Montserrat', sans-serif;
+    font: 100;
+}
+
+body {
+    background-image: url(https://arc-anglerfish-arc2-prod-infobae.s3.amazonaws.com/public/EWRWZLV7FZEM7C24TIEPFBJCP4.jpg);
+    background-size:cover; 
+    
+}
+
+.flex_container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #5c5650;
+    margin: 30px 30px;
+}
+
+.form{
+    min-width: 400px;
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+}
+
+.form_imput{
+    width: 100%;
+    padding: 8.5px 0;
+    margin: 6.5px 0;
+    border: none;
+    border-top: 4px solid black;
+    background: #fff
+}
+
+.form textarea{
+    min-height: 105px;
+    resize: none;
+    
+}
+
+.form_img{
+    flex:1;
+    display: flex;
+    min-width: 200px;
+}
+
+.form_img div{
+    padding: 10px;
+    
+}
+
+.img_container{
+    margin: auto;
+    
+}
+
+.img_container div{
+    background-color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    padding: 20px;
+}
+
+.form_img img{
+    width: 75%;
+    
+
+}
+
+.form_imput[type="submit"]:hover{
+    background-color: #2872945d;
+    border-bottom: none;
+    padding: 10px;
+}
